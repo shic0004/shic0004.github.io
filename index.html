@@ -48,12 +48,12 @@ Licence URI: https://www.os-templates.com/template-terms
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#What_Is_Chess">What is Chessboxing? </a></li>
           <li><a href="#How_To_Join">How To Join</a></li>
-          <li><a class = "drop" href="#">How To Join</a>
+          <!-- <li><a class = "drop" href="#">How To Join</a>
            <ul>
               <li><a href="#">Beginner</a></li>
               <li><a href="#">Intermediate</a></li>
               <li><a href="#">Expert</a></li>
-          </ul>
+          </ul> -->
         </ul>
       </nav>
     </header>
@@ -177,6 +177,40 @@ Licence URI: https://www.os-templates.com/template-terms
     
   </section>
 </div>
+
+<div class = "wrapper rowx">
+  <!-- The grid: four columns -->
+  <div class="row">
+    <div class="column">
+      <img src="img_nature.jpg" alt="Nature" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="img_snow.jpg" alt="Snow" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+    </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+</div>
+
+
+
+
 
 <div class="wrapper row4">
   <footer id="footer" class="hoc clear"> 
