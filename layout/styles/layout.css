@@ -523,6 +523,15 @@ table a, #comments a{background-color:inherit;}
 	padding: 2px 16px;
 	color: white;
   }
+
+  .content {  
+	color: #eff5d4;  
+	font-size: 30px;  
+	padding: 8px 12px;  
+	position: absolute;  
+	top: 10px;  
+	width: 100%;  
+	text-align: center; 
   
   .row:after {
 	content: "";
