@@ -532,7 +532,7 @@ table a, #comments a{background-color:inherit;}
   .column {
 	float: left;
 	/*width: 16.66%;*/
-	width: 10%;
+	width: 25%;
   }
   
   /* Add a transparency effect for thumnbail images */
