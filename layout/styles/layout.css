@@ -348,11 +348,11 @@ input:focus, textarea:focus, *:required:focus{border-color:#DC8E47;}
 
 
 /* Rows */
-.row0, .row0 a{color:#000000;}
+.row0, .row0 a{color:#FFFFFF;}
 .row1, .row1 a{}
 /*.row2{color:#474747; background-image:url('images/Page Intro/Test.jpg');}*/
 
-.row2{color:#474747; background-color:#ffffff;}
+.row2{color:#474747; background-color:#000000;}
 
 
 .row3{color:#474747; background-color:#00ffd5;}
