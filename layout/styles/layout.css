@@ -465,6 +465,7 @@ table a, #comments a{background-color:inherit;}
   .container {
 	position: relative;
 	max-width: 50%;
+	background-color: red;
   }
   
   /* Hide the images by default */
