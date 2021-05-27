@@ -524,7 +524,7 @@ table a, #comments a{background-color:inherit;}
 	color: white;
   }
 
-  .content {  
+  .image-content {  
 	color: #eff5d4;  
 	font-size: 30px;  
 	padding: 8px 12px;  
@@ -532,6 +532,8 @@ table a, #comments a{background-color:inherit;}
 	top: 10px;  
 	width: 100%;  
 	text-align: center; 
+	background-color: lime;
+  }
   
   .row:after {
 	content: "";
