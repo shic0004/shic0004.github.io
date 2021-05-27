@@ -352,10 +352,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#DC8E47;}
 .row1, .row1 a{}
 /*.row2{color:#474747; background-image:url('images/Page Intro/Test.jpg');}*/
 
-.row2{color:#474747; background-color:#000000;}
+.row2{color:#474747; background-color:#FFFFFF;}
 
 
-.row3{color:#474747; background-color:#00ffd5;}
+.row3{color:#474747; background-color:#FFFFFF;}
 /*.row3{color:#474747; background-color:#554747;}*/
 .row4{color:#C1C2C4; background-color:#50504b;} 
 .row3{color:#000000;}
