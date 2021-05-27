@@ -1,4 +1,4 @@
-var slide_index = 1;  
+/* var slide_index = 1;  
 displaySlides(slide_index);  
 
 function nextSlide(n) {  
@@ -18,9 +18,9 @@ function displaySlides(n) {
         slides[i].style.display = "none";  
     }  
     slides[slide_index - 1].style.display = "block";  
-}  
+}   */
 
-/* var slideIndex = 1;
+ var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -49,5 +49,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
-  */
+  
 } 
