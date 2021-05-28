@@ -47,7 +47,7 @@ File: Layout CSS
 
 #pageintro article{display:block; max-width:60%; margin:0 auto;}
 #pageintro .heading{margin-top:margin-bottom:20px; font-size:5.5rem;font-family:'Bebas Neue', cursive;display:inilne;}
-#pageintro p{max-width:75%; margin:0 auto; font-size: 1.2rem;}
+#pageintro p{max-width:75%; margin:0 auto; font-size: 1.2rem;font-family: 'Montserrat', sans-serif;}
 #pageintro i{padding-left:10px;}
 #pageintro footer{margin-top:50px;}
 
@@ -58,6 +58,9 @@ File: Layout CSS
 
 /* Content */
 .container .content{}
+p{font-size:1.2rem;}
+ul{font-size: 1.1rem;}
+
 
 .sectiontitle{display:block; max-width:55%; margin:0 auto 80px; text-align:center;}
 .sectiontitle .heading{margin:0; padding:0; line-height:1;}
@@ -327,14 +330,16 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 /*body{color:#C1C2C4; background-color:#ff008c;}*/
-body{color:#C1C2C4}
+body{color:#ffffff}
 a{color:#DC8E47;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
+
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#DC8E47;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
+.overlay::after{background-color:rgba(0,0,0,.55);}
 .overlay::after{background-color:rgba(0,0,0,.55);}
 .overlay.light::after{background-color:rgba(255,255,255,.6);}
 
@@ -350,26 +355,16 @@ input:focus, textarea:focus, *:required:focus{border-color:#DC8E47;}
 /* Rows */
 .row0, .row0 a{color:#FFFFFF;}
 .row1, .row1 a{}
-/*.row2{color:#474747; background-image:url('images/Page Intro/Test.jpg');}*/
-
 .row2{color:#474747; background-color:#FFFFFF;}
-
-
-.row3{color:#474747; background-color:#FFFFFF;}
+.row3{color:#474747; background-color:#ffffff;}
 /*.row3{color:#474747; background-color:#554747;}*/
 .row4{color:#ffffff; background-color:#22223B;} 
-.row3{color:#000000;}
-.row5{}
 
-/* background-image: url("images/How to join/pexels-mikhail-nilov-6740347.jpg") */ 
+.row5, .row5 a{color:#ffffff; background-color:#22223B;}
 
 
 
-.row5, .row5 a{color:#C1C2C4; background-color:#22223B;}
 
-
-
-/*#What_Is_Chess{background-color: red;}*/
 
 
 
@@ -411,9 +406,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#DC8E47;}
 
 
 /* Testimonials */
-#testimonials blockquote{color:inherit; background-color:rgba(0,0,0,.55); border-radius:10px;}
+/* #testimonials blockquote{color:inherit; background-color:rgba(0,0,0,.55); border-radius:10px;}
 #testimonials blockquote::before{color:rgba(255,255,255,.2);}
-#testimonials blockquote::after{border-top-color:rgba(0,0,0,.55);}
+#testimonials blockquote::after{border-top-color:rgba(0,0,0,.55);} */
 
 
 /* Footer */
@@ -534,12 +529,14 @@ body {
 	margin-top: 10px;
 	margin-bottom: 50px;
 	padding:30px;
-	color:inherit; background-color:rgba(0,0,0,.55); border-radius:10px;}
+	color:inherit; 
+	background-color:rgba(0,0,0,.55); 
+	border-radius:10px;}
 	
 
 
-	:before{color:rgba(255,255,255,.2);}
-	:after{border-top-color:rgba(0,0,0,.55);}
+	/* :before{color:rgba(255,255,255,.2);} */
+	/* :after{border-top-color:rgba(0,0,0,.55);} */
 	
 }
 
