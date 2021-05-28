@@ -46,7 +46,7 @@ File: Layout CSS
 #pageintro{padding:100px 0;}
 
 #pageintro article{display:block; max-width:60%; margin:0 auto;}
-#pageintro .heading{margin-top:margin-bottom:20px; font-size:6rem;font-family:'Bebas Neue', cursive;display:inilne;}
+#pageintro .heading{margin-top:margin-bottom:20px; font-size:5.5rem;font-family:'Bebas Neue', cursive;display:inilne;}
 #pageintro p{max-width:75%; margin:0 auto; font-size: 1.2rem;}
 #pageintro i{padding-left:10px;}
 #pageintro footer{margin-top:50px;}
@@ -338,13 +338,13 @@ input:focus, textarea:focus, *:required:focus{border-color:#DC8E47;}
 .overlay::after{background-color:rgba(0,0,0,.55);}
 .overlay.light::after{background-color:rgba(255,255,255,.6);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#DC8E47; border-color:#DC8E47;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#00B4D8; border-color:#ffffff;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
-.imgover:hover::before{background:rgba(220,142,71,.5);/* #DC8E47 */}
+.imgover:hover::before{background:rgba(0, 119, 182,.5);/* #0077B6 */}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
 
-.heading.underline::after{background-color:#DC8E47;}
+.heading.underline::after{background-color:rgba(0, 119, 182,.5);}
 
 
 /* Rows */
@@ -393,12 +393,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#DC8E47;}
 .overview article:hover a{color:#DC8E47;}
 
 .figures > li > figure figcaption a{border-color:#FFFFFF #DC8E47;}
-.figures > li > figure:hover figcaption a{border-left-color:#DC8E47;}
+.figures > li > figure:hover figcaption a{border-left-color:#00B4D8;}
 .figures.latest > li > figure figcaption a::after{border-color:#DC8E47;}
 .figures.latest > li > figure:hover figcaption a::after{border-color:#FFFFFF;}
 .figures > li > figure figcaption a{color:#474747; background-color:#FFFFFF;}
-.figures > li > figure:hover figcaption a{color:#FFFFFF; background-color:#DC8E47;}
-.figures > li > figure figcaption time, .figures > li > figure figcaption em{color:#FFFFFF; background-color:rgba(220,142,71,.5);/* #DC8E47 */}
+.figures > li > figure:hover figcaption a{color:#FFFFFF; background-color:#00B4D8;}
+.figures > li > figure figcaption time, .figures > li > figure figcaption em{color:#FFFFFF; background-color:rgba(0, 0, 0, 0.5);/* #DC8E47 */}
 
 
 /* Segment */
