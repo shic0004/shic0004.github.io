@@ -46,7 +46,7 @@ File: Layout CSS
 #pageintro{padding:100px 0;}
 
 #pageintro article{display:block; max-width:60%; margin:0 auto;}
-#pageintro .heading{margin-bottom:20px; font-size:4rem;}
+#pageintro .heading{margin-top:margin-bottom:20px; font-size:6rem;font-family:'Bebas Neue', cursive;display:inilne;}
 #pageintro p{max-width:75%; margin:0 auto; font-size: 1.2rem;}
 #pageintro i{padding-left:10px;}
 #pageintro footer{margin-top:50px;}
@@ -357,7 +357,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#DC8E47;}
 
 .row3{color:#474747; background-color:#FFFFFF;}
 /*.row3{color:#474747; background-color:#554747;}*/
-.row4{color:#C1C2C4; background-color:#50504b;} 
+.row4{color:#ffffff; background-color:#22223B;} 
 .row3{color:#000000;}
 .row5{}
 
@@ -365,7 +365,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#DC8E47;}
 
 
 
-.row5, .row5 a{color:#C1C2C4; background-color:#292929;}
+.row5, .row5 a{color:#C1C2C4; background-color:#22223B;}
 
 
 
@@ -455,8 +455,93 @@ tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
 table a, #comments a{background-color:inherit;}
 
+body {  
+	margin: 0;  
+	background: #e6e6e6; 
+	 
+}  
+.showSlide  {  
+	display: none;  
+}  
+	.showSlide img {  
+		width: 100%;  
+	}  
+.slidercontainer {  
+	max-width: 1000px;  
+	position: relative;  
+	margin: auto;  
+	
+	padding-top: -10px;
+	
+}  
+.left, .right {  
+	cursor: pointer;  
+	position: absolute;  
+	top: 50%;  
+	width: auto;  
+	padding: 16px;  
+	margin-top: -22px;  
+	color: white;  
+	background-color:rgba(255,255,255,.5);
+	font-weight: bold;  
+	font-size: 30px;  
+	transition: 0.6s ease;  
+	border-radius: 0 3px 3px 0;  
+}  
+.right {  
+	right: 0;  
+	border-radius: 3px 0 0 3px;  
+}  
+	.left:hover, .right:hover {  
+		background-color: rgba(115, 115, 115, 0.8);  
+	}  
+.content {  
+	color: #eff5d4;  
+	font-size: 30px;  
+	padding: 8px 12px;  
+	/*position: absolute;  */
+	top: 20px;  
+	width: 100%;  
+	text-align: center;  
+}  
+
+/* Fading animation */  
+.fade {  
+	-webkit-animation-name: fade;  
+	-webkit-animation-duration: 1.5s;  
+	animation-name: fade;  
+	animation-duration: 1.5s;  
+}  
+@-webkit-keyframes fade {  
+	from {  
+		opacity: .4  
+	}  
+	to {  
+		opacity: 1  
+	}  
+}  
+
+@keyframes fade {  
+	from {  
+		opacity: .4  
+	}  
+	to {  
+		opacity: 1  
+	}  
+}  
+
+.image-content {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding:30px;
+	color:inherit; background-color:rgba(0,0,0,.55); border-radius:10px;}
+	
 
 
+	:before{color:rgba(255,255,255,.2);}
+	:after{border-top-color:rgba(0,0,0,.55);}
+	
+}
 
 
 
